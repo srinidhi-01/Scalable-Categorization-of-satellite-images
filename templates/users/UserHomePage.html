@@ -1,0 +1,29 @@
+{% extends 'users/userbase.html' %}
+{% block contents %}
+<style>
+    #intro {
+        background-image: url();
+        background-size: cover; /* Make the image cover the entire section */
+        background-position: center; /* Center the background image */
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro-text {
+        /* background-color: rgba(0, 0, 0, 0.5); Add an overlay to enhance text readability */
+        padding: 15px;
+        color: rgb(9, 139, 237);
+        font-size: larger;
+        max-width: 600px; /* Adjust as needed */
+    }
+</style>
+
+<section id="intro">
+    <div class="intro-text">
+        <h3 style="color:rgb(39, 36, 36);">Welcome To User HomePage.....</h3>
+     </div>
+</section>
+{% endblock %}

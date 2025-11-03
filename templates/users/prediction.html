@@ -1,0 +1,23 @@
+{% extends 'users/userbase.html'%}
+{%block contents%}
+
+<!-- prediction_output.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Output</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <center><h2 style="color: coral;">Prediction Result</h2></center>
+        <center><h1>The image is predicted to be: <span style="color: brown;"><b>{{ predicted_label }}</b></span></h1></center>
+
+    </div>
+</body>
+</html>
+
+ 
+{%endblock%}
